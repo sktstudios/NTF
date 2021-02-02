@@ -49,6 +49,6 @@ input {
     width: 300;
     height: 40;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     ul li {float: none;}
 }
