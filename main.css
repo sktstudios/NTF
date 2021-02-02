@@ -55,7 +55,7 @@ input {
     width: 300;
     height: 40;
 }
-@media screen and (max-width: 601px) {
+@media screen and (max-height: 601px) {
   body {
     font-size: 80px;
   }
