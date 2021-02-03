@@ -1,15 +1,29 @@
 body {
     font-size: 30;
-    background: conic-gradient(from 180deg at 50% 50%, #FFFFFF 0deg, #000000 60deg, #FFFFFF 84.38deg, #000000 125.63deg, #FFFFFF 187.5deg, #000000 258.75deg, #FFFFFF 290.63deg, #000000 339.37deg, #FFFFFF 360deg), radial-gradient(100.01% 100.01% at 50.52% -0.01%, #22AADD 0%, #E1F664 19.79%, #FFEEBB 39.58%, #ABB3FC 59.38%, #5DF7A4 80.21%, #58C4F6 100%);
-    background-blend-mode: screen, normal;
+    background-color: #779d7f;
     backdrop-filter: blur(10px);
     margin: 0;
 }
-img {
-    transition: transform 0.5s;
+header {
+    
 }
-img:hover {
-    transform: scale(1.1);
+h1 {
+    color: white;
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+    font-family: arial;
+    margin: 0;
+    font-size: 55;
+    background-color: #333;
+}
+h2 {
+    display:block;
+    margin: 15;
+    text-align: center;
+    font-family: arial;
+    font-size: 40;
+    color: white;
 }
 nav {
   position: -webkit-sticky;
@@ -37,26 +51,11 @@ li a {
 li a:hover {
   background-color: #111;
 }
-input {
-    color: black;
-    display: block;
-    text-align: center;
-    font-weight: bolder;
-    font-family: arial;
-    margin: 15;
-    font-size: 25;
-    background:linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
-    border-radius: 10px;
-    box-shadow: 10px 5px 5px black;
-    text-shadow: white 2px 0px 3px;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: none;
-    width: 300;
-    height: 40;
-}
-@media screen and (max-height: 601px) {
-  body {
-    font-size: 80px;
+@media screen and (max-width: 100px) {
+    li {
+        float:none
+    }
+    body {
+    font-size: 100px;
   }
 }
