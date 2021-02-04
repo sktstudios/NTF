@@ -64,5 +64,8 @@ li a:hover {
     }
     body {
     font-size: 60px;
-  }
+    }
+    h1 {
+        display: none;
+    }
 }
